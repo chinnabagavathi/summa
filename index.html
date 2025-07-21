@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //alert("it will cause your mind do you want it?");
+        var inp = document.getElementById("name")
+        var n = inp.value
+        function cl()
+        {
+            window.location.href="summa.html"
+        }
+    </script>
+    <style>
+        .cterscrn
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            min-height: 100vh;
+        }
+        h1
+        {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: clamp(1.5em, 5vw, 3em);
+            margin-bottom: 1.5em;
+            color: #00ffff;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            transition: color 0.3s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        button
+        {
+            cursor: pointer;
+            padding: 0.75em 2em;
+            background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+            color: #fff;
+            border: none;
+            border-radius: 2em;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+            transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+            outline: none;
+        }
+
+        button:hover,
+        utton:focus
+        {
+            background: linear-gradient(90deg, #0072ff 0%, #00c6ff 100%);
+            transform: translateY(-2px) scale(1.04);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+        }
+        body
+        {
+            background-color: #121212;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Press The Button</h1>
+    <div class="cterscrn">
+        <div class="namecont"> 
+    <button 
+    id="bttn"
+    onclick="cl()"
+    >Click It</button>
+    <b href="/summa.html"></b>
+    </div>
+    </div>
+    sroll
+</body>
+</html>
